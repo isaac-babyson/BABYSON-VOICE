@@ -1,29 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VOIX DE BÉBÉ - Isaac Babyson</title>
+<title>VOIX DE BÉBÉ - ISAAC BABYSONGUY</title>
 <style>
-body{margin:0;font-family:sans-serif;background:#0f0f0f;color:white;text-align:center}
-header{padding:40px 20px;background:linear-gradient(135deg,#ff006a,#ffcc00)}
-h1{font-size:2.5em;margin:0}
-.player{margin:30px auto;background:#1e1e1e;padding:20px;border-radius:15px;max-width:400px}
-a.btn{display:inline-block;padding:15px 30px;background:#ff006a;color:white;border-radius:30px;text-decoration:none;margin:10px;font-weight:bold}
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);color:white;min-height:100vh}
+.container{max-width:500px;margin:0 auto;padding:20px}
+.header{text-align:center;padding:30px 0}
+.logo{font-size:42px;font-weight:900;background:linear-gradient(45deg,#ff00cc,#ff8a00);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.card{background:rgba(255,255,255,0.08);border-radius:25px;padding:25px;margin:20px 0}
+.cover{width:200px;height:200px;background:linear-gradient(45deg,#ff00cc,#333399);border-radius:20px;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;font-size:80px}
+.song-title{font-size:22px;font-weight:bold;text-align:center}
+.artist{opacity:0.7;text-align:center;margin-bottom:20px}
+audio{width:100%;margin:15px 0}
+.btn{width:100%;padding:15px;border:none;border-radius:50px;font-weight:bold;margin:8px 0}
+.btn-play{background:linear-gradient(45deg,#ff00cc,#ff8a00);color:white}
+.btn-lyrics{background:rgba(255,255,255,0.15);color:white}
 </style>
 </head>
 <body>
-<header>
-<h1>VOIX DE BÉBÉ</h1>
-<p>Plateforme musicale officielle d'ISAAC BABYSONGUY</p>
-</header>
-<div class="player">
-<h2>🎵 Écoutez des extraits</h2>
-<p>Bienvenue à tous les fans !</p>
-<p>Mon univers musical arrive bientôt.</p>
-<a class="btn" href="#">▶️ Play</a>
-<a class="btn" href="#">📜 Paroles</a>
+<div class="container">
+<div class="header">
+<div class="logo">VOIX DE BÉBÉ</div>
+<p>Plateforme officielle d'ISAAC BABYSONGUY</p>
 </div>
-<p style="opacity:0.6;margin-top:40px">Créée avec amour pour les fans.</p>
+<div class="card">
+<div class="cover">🎤</div>
+<div class="song-title">I Wanna Sing A New Song</div>
+<div class="artist">ISAAC BABYSONGUY</div>
+<audio controls>
+<source src="I_wanna_sing__new_song(720p).m4a" type="audio/mp4">
+</audio>
+<button class="btn btn-play">▶️ PLAY MAINTENANT</button>
+</div>
+</div>
 </body>
 </html>
